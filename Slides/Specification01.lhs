@@ -1,4 +1,4 @@
-> module Slides.Specification where
+> module Slides.Specification01 where
 
                                  Specification
 

@@ -1,5 +1,5 @@
-> module Slides.Specification6 where
-> import Slides.Specification
+> module Slides.Specification06 where
+> import Slides.Specification01
 
                              Specification, Cont...
 

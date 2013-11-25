@@ -1,6 +1,6 @@
-> module Slides.Specification4 where
-> import Slides.Specification
-> import Slides.Specification3
+> module Slides.Specification04 where
+> import Slides.Specification01
+> import Slides.Specification03
 
                              Specification, Cont...
 
