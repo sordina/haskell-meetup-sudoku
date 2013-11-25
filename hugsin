@@ -1,0 +1,2 @@
+:load Slides/Specification8.lhs
+putStr "prop_boxs: " >> Test.QuickCheck.quickCheck prop_boxs
