@@ -9,7 +9,7 @@
                      Pruning the matrix of choices, Cont...
 
 
-Now for the calculation. The starting point is to rewrite
+Now for the calculation. The starting point is to rewrite...
 
   `filter valid .  expand`:
 
