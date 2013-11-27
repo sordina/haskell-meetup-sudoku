@@ -1,2 +1,0 @@
-:load Slides/Pruning01.lhs
-putStr "prop_prune: " >> Test.QuickCheck.quickCheck prop_prune
