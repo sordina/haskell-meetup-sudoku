@@ -25,6 +25,8 @@ The function `remove` removes choices from any choice that is not fixed:
 
 The function pruneRow satisfies...
 
+"Using a big sieve and then a small sieve should be the same as just using a small sieve"
+
 > prop_pruneRow :: Grid -> Bool
 > prop_pruneRow row = (filter nodups . cp) row
 >                  == (filter nodups . cp . pruneRow) row
