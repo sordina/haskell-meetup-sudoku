@@ -1,4 +1,4 @@
-> module Slides.Pruning03 where
+> module Slides.Pruning04 where
 > import Slides.Specification01
 > import Slides.Specification03
 > import Slides.Specification04
