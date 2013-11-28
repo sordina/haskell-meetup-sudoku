@@ -15,21 +15,15 @@ In fact, rather than just one application of `prune`, we can have as many
 `prune`s as we like. This is sensible, because after one round of pruning, some
 choices may be resolved into singleton choices and another round of pruning may
 remove still more impossible choices. The simplest Sudoku problems are solved
-just by repeatedly pruning the matrix of choices until only singleton choiecs
-are left.
-
-...
+just by repeatedly pruning the matrix of choices until pruning has no effect.
 
 For example:
 
-> main :: IO ()
-> main = mapM_ (mapM_ (\r -> putStrLn "" >> mapM_ putStrLn r) . solve_fix) problems
->
-> problems :: [Grid]
-> problems = example_puzzles
->
 > solve_fix :: Grid -> [Grid]
 > solve_fix = filter valid . expand . fix prune . choices
+>
+> main :: IO ()
+> main = mapM_ (mapM_ (\r -> putStrLn "" >> mapM_ putStrLn r) . solve_fix) example_puzzles
 >
 > -- Equality based fix-point finder
 > fix :: Eq d => (d -> d) -> d -> d
