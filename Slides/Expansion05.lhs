@@ -4,6 +4,7 @@
 > import Slides.Pruning06       (prune)
 > import Slides.Expansion02     (expand1)
 > import Slides.Expansion03
+> import Slides.Examples
 
                          Single-Cell Expansion, Cont...
 
@@ -21,3 +22,6 @@ And now we can replace `solve` by a third version:
 >   m' = prune m
 
 This is our final simple Sudoku solver.
+
+> main :: IO ()
+> main = print_solutions (map solve example_puzzles)

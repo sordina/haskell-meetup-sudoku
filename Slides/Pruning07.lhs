@@ -23,7 +23,7 @@ For example:
 > solve_fix = filter valid . expand . fix prune . choices
 >
 > main :: IO ()
-> main = mapM_ (mapM_ (\r -> putStrLn "" >> mapM_ putStrLn r) . solve_fix) example_puzzles
+> main = print_solutions (map solve_fix example_puzzles)
 >
 > -- Equality based fix-point finder
 > fix :: Eq d => (d -> d) -> d -> d

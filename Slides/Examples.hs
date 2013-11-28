@@ -1,11 +1,14 @@
 {-# LANGUAGE QuasiQuotes #-}
 
-module Slides.Examples (example_puzzles)
+module Slides.Examples (example_puzzles, print_solutions)
 where
 
 import Text.InterpolatedString.Perl6 (q)
 import Data.Char
 import Data.List.Split
+
+print_solutions :: [[[String]]] -> IO ()
+print_solutions = mapM_ (mapM_ (\r -> putStrLn "" >> mapM_ putStrLn r))
 
 example_puzzles :: [[String]]
 example_puzzles = map example_puzzle
