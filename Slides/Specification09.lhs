@@ -4,6 +4,9 @@
 > import Slides.Specification06
 > import Slides.Specification07
 
+                             Specification, Cont...
+
+
 For example, here are three laws that are valid on 9x9 Sudoku grids, in fact, on
 arbitrary N^2 x N^2 matrices:
 

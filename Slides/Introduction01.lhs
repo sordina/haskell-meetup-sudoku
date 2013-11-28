@@ -1,5 +1,9 @@
+> module Slides.Introduction01 where
 
                                   Introduction
+
+> this :: String
+> this = "A Literate Haskell Program"
 
 The game of sudoku is played on a 9x9 grid. Given a matrix, such as
 

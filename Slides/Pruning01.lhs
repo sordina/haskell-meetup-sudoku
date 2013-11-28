@@ -6,6 +6,7 @@
 
                          Pruning the matrix of choices
 
+
 Though executable in theory, the specification of `solve` is hopeless in
 practice. Assuming about a half of the 81 entries are fixed initially (a
 generous estimate), there are about 9^40, or...

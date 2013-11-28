@@ -1,5 +1,9 @@
+> module Slides.Introduction02 where
 
                              Introduction, Cont...
+
+> action :: String
+> action = "Load .lhs files in GHCi to experiment with the definitions"
 
 Specifically, we will define a function "solve", for computing all the ways a
 given grid may be completed. If only one solution is wanted, then we can just

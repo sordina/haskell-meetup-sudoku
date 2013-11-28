@@ -7,6 +7,9 @@
 > import Slides.Specification06
 > import Slides.Specification07
 
+                             Specification, Cont...
+
+
 Here are three more laws, valid on N^2 x N^2 matrices of choices:
 
 > getMatrix :: Matrix Choices -> Matrix Choices

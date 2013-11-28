@@ -2,7 +2,7 @@
 > import Slides.Specification01
 > import Slides.Specification03
 > import Slides.Specification04
-> import Slides.Specification05 hiding (rows, cols, boxs)
+> import Slides.Specification05 (nodups)
 > import Slides.Specification06
 > import Slides.Specification07
 

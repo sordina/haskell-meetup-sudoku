@@ -1,6 +1,9 @@
 > module Slides.Specification08 where
 > import Slides.Specification07
 
+                             Specification, Cont...
+
+
 The action boxes in the 4x4 case where group splits a list into groups of two,
 is ilustrated by...
 
