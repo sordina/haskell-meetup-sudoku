@@ -24,4 +24,8 @@ And now we can replace `solve` by a third version:
 This is our final simple Sudoku solver.
 
 > main :: IO ()
-> main = print_solutions (map solve example_puzzles)
+> main = do putStrLn "Easy Puzzles"
+>           print_solutions (map solve example_puzzles)
+>           putStrLn ""
+>           putStrLn "Hard Puzzles"
+>           print_solutions (map solve example_puzzles_hard)
