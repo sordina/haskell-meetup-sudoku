@@ -17,7 +17,7 @@ construct a list of all correctly completed grids, and then to test the given
 grid against them to identify those whose non-blank entries match the given
 ones. Another possibility, and the one we will adopt, is to start with the
 givien grid and to install all possible choices for the blank entries. Then we
-compute all teh grids that arise from making every possible choice and filter
+compute all the grids that arise from making every possible choice and filter
 the result for the valid ones. This specification is formalised by...
 
 > solve :: Grid -> [ Grid ]

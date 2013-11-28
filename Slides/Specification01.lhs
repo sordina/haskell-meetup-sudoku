@@ -3,7 +3,7 @@
                                  Specification
 
 
-We begin wwith some basic data types, starting with atrices:
+We begin wwith some basic data types, starting with matrices:
 
 > type Matrix a = [ Row a ]
 > type Row    a = [     a ]
